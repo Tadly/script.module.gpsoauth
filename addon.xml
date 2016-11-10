@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.gpsoauth"
+       name="gpsoauth"
+       provider-name="Tadly"
+       version="0.4.0">
+
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.pkcs1" version="0.9.5"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+
+    <extension library="lib" point="xbmc.python.module"/>
+
+    <extension point="xbmc.addon.metadata">
+        <language>en</language>
+        <platform>all</platform>
+        <summary lang="en">A python client library for Google Play Services OAuth.</summary>
+        <description lang="en">A python client library for Google Play Services OAuth.</description>
+        <license>MIT</license>
+        <website>https://github.com/Tadly/gpsoauth</website>
+        <source>https://github.com/Tadly/gpsoauth</source>
+    </extension>
+</addon>
