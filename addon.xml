@@ -13,10 +13,9 @@
     <extension library="lib" point="xbmc.python.module"/>
 
     <extension point="xbmc.addon.metadata">
-        <language>en</language>
         <platform>all</platform>
-        <summary lang="en">A python client library for Google Play Services OAuth.</summary>
-        <description lang="en">A python client library for Google Play Services OAuth.</description>
+        <summary lang="en_GB">A python client library for Google Play Services OAuth.</summary>
+        <description lang="en_GB">A python client library for Google Play Services OAuth.</description>
         <license>MIT</license>
         <website>https://github.com/Tadly/gpsoauth</website>
         <source>https://github.com/Tadly/gpsoauth</source>
